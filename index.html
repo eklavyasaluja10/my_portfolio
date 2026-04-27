@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eklavya Saluja — Photography Portfolio</title>
+  <meta name="description" content="Eklavya Saluja — Curated visual narratives exploring light, shadow, and human emotion.">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicons (optional — add favicon.ico to root) -->
+</head>
+<body>
+
+  <!-- ── Custom Cursor ── -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ── Scroll Progress ── -->
+  <div id="scroll-progress"></div>
+
+  <!-- ── Page Transition Overlay ── -->
+  <div id="page-transition"></div>
+
+  <!-- ══════════════════════════════════════
+       NAV
+  ══════════════════════════════════════ -->
+  <nav id="nav">
+    <a href="#" class="nav-logo" data-page="home">EKLAVYA_CLICKS1001</a>
+
+    <ul class="nav-links">
+      <li><a href="#" data-page="home" class="active">EXHIBITION</a></li>
+      <li><a href="#" data-page="archive">ARCHIVE</a></li>
+      <li><a href="#" data-page="manifesto">MANIFESTO</a></li>
+    </ul>
+
+    <a href="#" class="nav-inquiry" data-page="manifesto">INQUIRY</a>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       PAGE: HOME / EXHIBITION
+  ══════════════════════════════════════ -->
+  <div class="page" id="page-home">
+    <div class="home-bg"></div>
+    <div class="home-noise"></div>
+
+    <div class="home-eyebrow">CURATED VISUAL NARRATIVES</div>
+    <h1 class="home-title">The Art of Stillness</h1>
+
+    <!-- Carousel -->
+    <div class="carousel-container">
+      <div class="carousel-track" id="carousel-track">
+        <!-- Built by JS -->
+      </div>
+    </div>
+
+    <div class="carousel-dots" id="carousel-dots">
+      <!-- Built by JS -->
+    </div>
+
+    <div class="home-cta-row">
+      <a href="#" class="btn-outline" data-page="archive">
+        ARCHIVE EXHIBITION <span>→</span>
+      </a>
+      <p class="home-tagline">
+        Exploring the intersection of light, shadow, and human emotion through a refined editorial lens.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       PAGE: ARCHIVE / COLLECTION
+  ══════════════════════════════════════ -->
+  <div class="page" id="page-archive">
+
+    <div class="archive-hero">
+      <div class="archive-eyebrow">CURATED SERIES</div>
+      <h1 class="archive-title">The Full Collection</h1>
+      <p class="archive-subtitle">
+        A non-linear odyssey through temporal light and ethereal landscapes.
+        Each frame is a fragment of a larger atmospheric narrative.
+      </p>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all works">ALL WORKS <span class="tab-count" id="archive-count">106</span></button>
+        <button class="filter-tab" data-filter="flora">FLORA</button>
+        <button class="filter-tab" data-filter="fauna">FAUNA</button>
+        <button class="filter-tab" data-filter="heritage">HERITAGE</button>
+        <button class="filter-tab" data-filter="golden hour">GOLDEN HOUR</button>
+        <button class="filter-tab" data-filter="urban nights">URBAN NIGHTS</button>
+        <button class="filter-tab" data-filter="random clicks">RANDOM CLICKS</button>
+      </div>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div class="photo-grid" id="photo-grid">
+      <!-- Built by JS -->
+    </div>
+
+    <footer>
+      <div class="footer-logo">EKLAVYA_CLICKS1001</div>
+      <ul class="footer-links">
+        <li><a href="#" data-page="home">EXHIBITION</a></li>
+        <li><a href="#" data-page="archive">ARCHIVE</a></li>
+        <li><a href="#" data-page="manifesto">MANIFESTO</a></li>
+        <li><a href="https://www.instagram.com/eklavya_clicks1001?igsh=MXRieHlrMzVtZXdqMQ==" target="_blank">INSTAGRAM</a></li>
+      </ul>
+      <p class="footer-copy">© 2025 EKLAVYA SALUJA. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       PAGE: SERIES DETAIL
+  ══════════════════════════════════════ -->
+  <div class="page" id="page-series">
+
+    <!-- Back -->
+    <a href="#" class="series-back" data-page="archive">← BACK TO COLLECTION</a>
+
+    <!-- Hero -->
+    <div class="series-hero">
+      <div class="series-hero-img"></div>
+      <div class="series-hero-overlay"></div>
+      <div class="series-hero-content">
+        <div class="series-series-no">SERIES NO. 04 — MIDNIGHT CHRONICLES</div>
+        <h1 class="series-hero-title">Urban Silence</h1>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="series-body">
+      <div class="series-text">
+        <p class="series-quote">
+          The city breathes only when we stop listening.
+        </p>
+        <p>
+          'Urban Silence' is a meditation on the architectural solitude found within the world's most densely
+          populated hubs. By capturing these spaces during the "blue hour," the series strips away the chaos
+          of commerce and movement.
+        </p>
+        <p>
+          Each frame serves as a vacuum; preserving a singular moment where the concrete and steel seem to
+          find their own pulse. It is an exploration of the quietude that remains when the human element is
+          momentarily absent.
+        </p>
+      </div>
+      <div class="series-aside-img">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+
+    <!-- Plates -->
+    <div class="series-plates" id="series-plates">
+      <!-- Built by JS -->
+    </div>
+
+    <!-- Pull Quote Banner -->
+    <div class="pull-quote-banner">
+      <div class="pull-quote-banner-inner">
+        <div class="pull-quote-banner-bg"><!-- img injected by JS --></div>
+        <div class="pull-quote-banner-overlay"></div>
+        <div class="pull-quote-text">"Movement is the illusion of life."</div>
+      </div>
+    </div>
+
+    <!-- Technical Details -->
+    <div class="series-tech">
+      <h3>Technical Details</h3>
+      <dl class="tech-details">
+        <div class="tech-detail">
+          <dt>MEDIUM</dt>
+          <dd>35mm Digital</dd>
+        </div>
+        <div class="tech-detail">
+          <dt>EDITION</dt>
+          <dd>1 of 10</dd>
+        </div>
+        <div class="tech-detail">
+          <dt>LOCATION</dt>
+          <dd>Tokyo / NY</dd>
+        </div>
+      </dl>
+      <button class="btn-acquire">ACQUIRE FULL SERIES</button>
+    </div>
+
+    <footer>
+      <div class="footer-logo">EKLAVYA_CLICKS1001</div>
+      <ul class="footer-links">
+        <li><a href="#" data-page="home">EXHIBITION</a></li>
+        <li><a href="#" data-page="archive">ARCHIVE</a></li>
+        <li><a href="#" data-page="manifesto">MANIFESTO</a></li>
+        <li><a href="https://www.instagram.com/eklavya_clicks1001?igsh=MXRieHlrMzVtZXdqMQ==" target="_blank">INSTAGRAM</a></li>
+      </ul>
+      <p class="footer-copy">© 2025 EKLAVYA SALUJA. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       PAGE: MANIFESTO (About + Contact)
+  ══════════════════════════════════════ -->
+  <div class="page" id="page-manifesto">
+
+    <div class="manifesto-eyebrow">THE PHOTOGRAPHER</div>
+    <h1 class="manifesto-name">Eklavya Saluja</h1>
+
+    <div class="manifesto-layout">
+
+      <!-- Left: Portrait + Contact -->
+      <div class="manifesto-portrait">
+        <div class="manifesto-portrait-img">
+          <img id="profile-img" src="assets/profile.jpeg" alt="Eklavya Saluja">
+        </div>
+
+        <ul class="manifesto-contact-list">
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 8l9 6 9-6M3 8v10a1 1 0 001 1h16a1 1 0 001-1V8M3 8a1 1 0 011-1h16a1 1 0 011 1"/>
+            </svg>
+            <a href="mailto:eklavyasaluja99@gmail.com">eklavyasaluja99@gmail.com</a>
+          </li>
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <a href="tel:+919568810150">+91 95688 10150</a>
+          </li>
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            <a href="https://www.instagram.com/eklavya_clicks1001?igsh=MXRieHlrMzVtZXdqMQ==" target="_blank">eklavya_clicks1001</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Prose + Form -->
+      <div class="manifesto-prose">
+        <p class="big-quote">
+          I chase the moments that exist between heartbeats—the quiet gravity of a gaze,
+          the way light bends through an unfamiliar city, the stillness that hides inside chaos.
+        </p>
+
+        <p>
+          Based in India but drawn to every corner of the world, my photography is a dialogue between
+          presence and absence. I believe every frame is a ghost of a reality that will never repeat itself—
+          a single breath held still against the passage of time.
+        </p>
+
+        <p>
+          The collections here are not mere galleries—they are composed sequences, each image chosen
+          for the emotional residue it leaves behind. My lens does not simply document; it listens,
+          and then it speaks.
+        </p>
+
+        <!-- Contact Form -->
+        <div class="contact-form-section">
+          <h2 class="contact-form-title">Begin a Dialogue</h2>
+
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-field">
+                <label>FULL NAME</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-field">
+                <label>EMAIL ADDRESS</label>
+                <input type="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-field full" style="margin-top:1rem">
+              <label>THE INQUIRY</label>
+              <textarea name="message" placeholder="Share your vision..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-send">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-logo">EKLAVYA_CLICKS1001</div>
+      <ul class="footer-links">
+        <li><a href="#" data-page="home">EXHIBITION</a></li>
+        <li><a href="#" data-page="archive">ARCHIVE</a></li>
+        <li><a href="https://www.instagram.com/eklavya_clicks1001?igsh=MXRieHlrMzVtZXdqMQ==" target="_blank">INSTAGRAM</a></li>
+        <li><a href="https://vimeo.com" target="_blank">VIMEO</a></li>
+      </ul>
+      <p class="footer-copy">© 2025 EKLAVYA SALUJA. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       LIGHTBOX
+  ══════════════════════════════════════ -->
+  <div id="lightbox">
+    <div class="lightbox-inner">
+      <img src="" alt="">
+      <div class="lightbox-close">CLOSE </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
